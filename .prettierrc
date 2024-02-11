@@ -1,10 +1,11 @@
- {
+{
   "importOrder": [
     "<THIRD_PARTY_MODULES>",
-    "^@internal/(.*)$",
+    "^@components/(.*)$",
+    "^@constants/(.*)$",
     "^[./].*(?<!\\.(c|le|sc)ss)$",
     "^[.]/[-a-zA-Z0-9_]+[.](module)[.](css|scss|less)$"
   ],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
+  "trailingComma": "es5",
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
