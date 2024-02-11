@@ -1,6 +1,6 @@
-import { Typography } from "../Typography";
-import { useField } from "formik";
 import { Input } from "antd";
+import { useField } from "formik";
+import { Typography } from "../Typography";
 
 enum EInputType {
   text,

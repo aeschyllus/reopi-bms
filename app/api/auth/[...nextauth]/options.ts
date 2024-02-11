@@ -20,7 +20,7 @@ export const options: NextAuthOptions = {
       async authorize(credentials) {
         // TODO: integrate to actual endpoint
         const user = await fetch(
-          "https://jsonplaceholder.typicode.com/users/1/",
+          "https://jsonplaceholder.typicode.com/users/1/"
         )
           .then((res) => res.json())
           .then((data) => data);

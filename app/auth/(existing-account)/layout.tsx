@@ -1,12 +1,13 @@
 "use client";
 
+import { DataPrivacyModal } from "@/components/DataPrivacyModal";
+import { TermsOfUseModal } from "@/components/TermsOfUseModal";
 import { Typography } from "@/components/Typography";
-import { Button } from "antd";
-import { DataPrivacyModal, TermsOfUseModal } from "../_component";
-import { useState } from "react";
-import Image from "next/image";
-import { IMG } from "@/constants/images";
 import { ICON } from "@/constants/icons";
+import { IMG } from "@/constants/images";
+import { Button } from "antd";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function ExistingAccountLayout({
   children,

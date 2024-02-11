@@ -14,7 +14,7 @@ function getItem(
   key: React.Key,
   icon?: React.ReactNode,
   children?: MenuItem[],
-  type?: "group",
+  type?: "group"
 ): MenuItem {
   return {
     key,
@@ -29,7 +29,7 @@ export const NAV_ITEMS: MenuItem[] = [
   getItem(
     <Link href={ROUTE.DASHBOARD}>Dashboard</Link>,
     "1",
-    <DashboardOutlined />,
+    <DashboardOutlined />
   ),
   getItem("Employee Information", "2", <UserOutlined />, [
     getItem(<Link href={ROUTE.EMPLOYEE_LIST}>Employee List</Link>, "sub1"),
@@ -42,13 +42,13 @@ export const AVATAR_ITEMS = [
       <UserOutlined />
       My profile
     </Space>,
-    1,
+    1
   ),
   getItem(
     <Space className="text-red-500">
       <LogoutOutlined />
       Sign out
     </Space>,
-    2,
+    2
   ),
 ];

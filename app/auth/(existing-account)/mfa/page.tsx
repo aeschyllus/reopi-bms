@@ -49,7 +49,7 @@ export default function MFA() {
       </Formik>
       <div className="text-center mt-8">
         <Text type="secondary">
-          Didn't get the code?{" "}
+          Didn&apos;t get the code?{" "}
           <Button type="link" className="!p-0">
             Resend
           </Button>{" "}

@@ -50,7 +50,7 @@ export default function Typography({
       [EVariant[variant]]: variant,
       [EWeight[weight]]: weight,
     },
-    className,
+    className
   );
 
   return <CustomTag className={wrapClass}>{children}</CustomTag>;

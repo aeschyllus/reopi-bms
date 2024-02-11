@@ -1,7 +1,7 @@
-import { Button, Flex, Modal, Space } from "antd";
-import Title from "antd/es/typography/Title";
-import Text from "antd/es/typography/Text";
 import { PERSONAL_INFORMATION } from "@/constants/data-privacy";
+import { Button, Flex, Modal, Space } from "antd";
+import Text from "antd/es/typography/Text";
+import Title from "antd/es/typography/Title";
 
 interface IProps {
   open: boolean;

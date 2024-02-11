@@ -8,5 +8,4 @@ export const ROUTE = {
   EMPLOYEE_LIST: "/dashboard/employee/list",
 };
 
-// 2fa
 // sign up (progression)

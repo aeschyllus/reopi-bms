@@ -28,19 +28,19 @@ export default function ResetPassword() {
             .required("This field is required")
             .matches(
               /^(?=.*[A-Z])/,
-              "Password must contain at least one uppercase character",
+              "Password must contain at least one uppercase character"
             )
             .matches(
               /^(?=.*[a-z])/,
-              "Password must contain at least one lowercase character",
+              "Password must contain at least one lowercase character"
             )
             .matches(
               /^(?=.*[0-9])/,
-              "Password must contain at least one number",
+              "Password must contain at least one number"
             )
             .matches(
               /^(?=.*[!@#\$%\^&\*])/,
-              "Password must contain at least one special character",
+              "Password must contain at least one special character"
             )
             .min(8, "Password must be 8 characters or more"),
           confirmPassword: Yup.string()

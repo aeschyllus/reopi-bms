@@ -1,6 +1,6 @@
 import { Button, Modal, Space } from "antd";
-import Title from "antd/es/typography/Title";
 import Text from "antd/es/typography/Text";
+import Title from "antd/es/typography/Title";
 
 interface IProps {
   open: boolean;
@@ -29,7 +29,7 @@ export default function TermsOfUseModal({ open, handleClose }: IProps) {
 
       <Space direction="vertical">
         <Text className="block mb-4">
-          Please be reminded of REO's Terms of Use
+          Please be reminded of REO&apos;s Terms of Use
         </Text>
 
         <Space direction="vertical" className="mb-4">

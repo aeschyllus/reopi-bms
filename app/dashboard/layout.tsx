@@ -12,7 +12,7 @@ export default function DashboardLayout({
       theme={{
         components: {
           Layout: {
-            siderBg: "rgb(3,7,18)",
+            siderBg: "#030712",
             headerBg: "#fff",
             headerPadding: 0,
           },
